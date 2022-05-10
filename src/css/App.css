@@ -1,0 +1,8 @@
+.card_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: scroll;
+  padding: 10px 0px;
+}
+/*# sourceMappingURL=App.css.map */

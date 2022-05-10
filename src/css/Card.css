@@ -1,0 +1,137 @@
+.card {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: -8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  max-width: 176px;
+  background-color: white;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+  margin-top: -8px;
+}
+
+.card #status {
+  position: relative;
+  left: 5px;
+  top: 25px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2.5px 7.625px;
+  font-size: 10.24px;
+  background-color: #FFFFFF;
+  z-index: 1;
+  text-transform: uppercase;
+  margin-top: -20px;
+}
+
+.card #item-img {
+  width: 176px;
+  height: 235px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.5em;
+  margin-bottom: 0px;
+  -webkit-animation: intro 1s forwards;
+          animation: intro 1s forwards;
+}
+
+@-webkit-keyframes intro {
+  from {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes intro {
+  from {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+.card .rating-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -5px;
+  margin-bottom: 0px;
+  padding-left: 2px;
+}
+
+.card .rating-section #star {
+  max-width: 14px;
+  max-height: 14px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card .rating-section #rating {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.card .rating-section #elipse {
+  max-width: 2px;
+  max-height: 2px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 3px;
+}
+
+.card .rating-section #origin {
+  color: #918E9B;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.card #title {
+  font-size: 12px;
+  font-weight: 400;
+  width: 175px;
+  margin-top: -5px;
+  margin-bottom: 0px;
+  letter-spacing: -0.5px;
+  padding-left: 2px;
+}
+
+.card #desc {
+  font-size: 10px;
+  line-height: 10px;
+  padding: 1px 2px;
+}
+
+.card #price-tag {
+  position: relative;
+  margin-top: 0;
+  padding-left: 2px;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.card #price-tag #price {
+  font-weight: bold;
+}
+/*# sourceMappingURL=Card.css.map */

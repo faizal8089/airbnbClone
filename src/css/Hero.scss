@@ -1,0 +1,30 @@
+.Hero{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    .heroImage{
+        max-width: 395.91px;
+        height: 232px;
+        align-self: center;
+        object-fit: cover;
+        animation: intro 2s forwards;
+        @keyframes intro {
+            from {
+              clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            }
+            to {
+              clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            }
+          }
+    }
+    h1{
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+    p{
+        font-size: 16px;
+        text-align: left;
+        width: 300px;
+        margin-top: 0px;
+    }
+}
